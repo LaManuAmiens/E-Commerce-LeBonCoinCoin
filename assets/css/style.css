@@ -1,0 +1,195 @@
+#logo{
+  width: 80%;
+}
+
+#listGroup{
+  margin: 5%;
+}
+
+.card{
+  margin: 0.5rem;
+}
+
+#cards{
+  margin-top: 100px;
+}
+
+.card-title{
+  font-size: 40px;
+}
+
+.card-body,.card-footer{
+  text-align: center;
+}
+
+#img1{
+  width: 70%;
+  height: 50%;
+}
+
+#img2{
+  width: 70%;
+  height: 50%;
+}
+
+#img3{
+  width: 95%;
+  height: 100% ;
+}
+
+#img4{
+  width: 70%;
+  height: 50% ;
+}
+
+#img5{
+  width: 70%;
+  height: 50%;
+}
+
+#img6{
+  width: 100%;
+  height: 50%;
+}
+
+#img7{
+  width: 80%;
+  height: 70% ;
+}
+
+#img8{
+  width: 70%;
+  height: 40% ;
+}
+
+#img9{
+  width: 100%;
+  height: 100%;
+}
+
+#img10{
+  width: 70%;
+  height: 50%;
+}
+
+#img11{
+  width: 70%;
+  height: 50%;
+}
+
+#img12{
+  width: 70%;
+  height: 70%;
+}
+
+#text-shadow1{
+  text-shadow: white 2px 3px;
+}
+
+#text-shadow2{
+  text-shadow: black 2px 3px;
+}
+/* modification taille du rectangle select */
+.custom-select{
+  width: 53%;
+}
+
+#logoPanier{
+  width: 95%;
+  height: 80%;
+}
+#btnPanier1{
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  position: fixed;
+  margin-top: 1%;
+  margin-right: 1%;
+  z-index: 1;
+}
+.produitPanier{
+  width: 10%;
+}
+#moins1{
+  margin-left: 8.5%;
+}
+#moins2{
+  margin-left: 12%;
+}
+#moins4{
+  margin-left: 18%;
+}
+#moins5{
+  margin-left: 7%;
+}
+#moins6{
+  margin-left: 15.5%;
+}
+#moins7{
+  margin-left: 3%;
+}
+#moins8{
+  margin-left: 9%;
+}
+#moins10{
+  margin-left: 1.5%;
+}
+#moins11{
+  margin-left: 2.5%;
+}
+input{
+  text-align: center;
+  width: 20%;
+}
+
+#products{
+  background-color: #ffc107;
+  color: white;
+}
+
+#services{
+  background-color: #dc3545;
+  color: white;
+}
+
+#software{
+  background-color: #6c757d;
+  color: white;
+}
+
+#repair{
+  background-color: #17a2b8;
+  color: white;
+}
+
+#sales{
+  background-color: #343a40;
+  color: white;
+}
+#btnPanier2{
+  display: none;
+}
+@media all and (max-width: 1345px) {
+  #btnPanier1{
+    display: none;
+  }
+  #btnPanier2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #cards{
+    margin-top: auto;
+  }
+}
+#dismiss2{
+  display: none;
+}
+@media all and (max-width: 390px){
+  #dismiss{
+    display: none;
+  }
+  #dismiss2{
+    display: block;
+  }
+}
